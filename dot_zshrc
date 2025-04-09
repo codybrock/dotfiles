@@ -1,0 +1,5 @@
+echo "Running .zshrc..."
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"
